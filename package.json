@@ -1,0 +1,11 @@
+{
+  "name": "study-timer",
+  "version": "1.0.0",
+  "private": true,
+  "license": "MIT",
+  "scripts": {
+    "build": "tailwindcss -i src/input.css -o styles/tailwind.css --minify",
+    "watch": "tailwindcss -i src/input.css -o styles/tailwind.css --watch"
+  },
+  "devDependencies": { "tailwindcss": "^3.4.17" }
+}
