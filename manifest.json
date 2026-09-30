@@ -1,11 +1,11 @@
 {
   "manifest_version": 3,
-  "name": "Study Timer",
-  "version": "1.0.0",
-  "description": "A floating session timer for any webpage, with daily study insights. All data stays on your device.",
+  "name": "FocusTrack",
+  "version": "2.0.0",
+  "description": "A floating study timer for any webpage, with topic tagging and daily focus analytics. All data stays on your device.",
   "permissions": ["storage", "idle", "activeTab"],
   "background": { "service_worker": "background.js" },
-  "action": { "default_popup": "popup.html", "default_title": "Study Timer" },
+  "action": { "default_popup": "popup.html", "default_title": "FocusTrack" },
   "content_scripts": [
     { "matches": ["<all_urls>"], "js": ["utils.js", "content.js"], "run_at": "document_idle" }
   ],

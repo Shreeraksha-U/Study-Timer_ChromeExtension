@@ -1,6 +1,6 @@
 # Study Timer
 
-A Chrome/Edge extension (Manifest V3) that adds a small floating timer to any webpage and shows daily study insights. Built for tracking practice on GeeksforGeeks.
+A Chrome/Edge extension (Manifest V3) that adds a small floating timer to any webpage and shows daily study insights. Built this because I personally wanted to track my study time on GeeksforGeeks.
 
 ## Features
 - Floating timer on every page with start time, pause/resume and stop
